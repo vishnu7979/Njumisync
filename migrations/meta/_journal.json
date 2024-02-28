@@ -1,0 +1,27 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1708948361146,
+      "tag": "0000_lyrical_corsair",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1708956960073,
+      "tag": "0001_colorful_living_mummy",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1708965900202,
+      "tag": "0002_futuristic_jetstream",
+      "breakpoints": true
+    }
+  ]
+}
