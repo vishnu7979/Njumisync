@@ -103,7 +103,7 @@ const Signup = () => {
         >
           <Image
             src={Logo}
-            alt="cypress Logo"
+            alt="NjumiSync Logo"
             width={50}
             height={50}
           />
@@ -111,7 +111,7 @@ const Signup = () => {
             className="font-semibold
           dark:text-white text-4xl first-letter:ml-2"
           >
-            cypress.
+            NjumiSync.
           </span>
         </Link>
         <FormDescription
@@ -184,7 +184,7 @@ const Signup = () => {
         )}
 
         {submitError && <FormMessage>{submitError}</FormMessage>}
-        <span className="self-container">
+        <span className="self-center">
           Already have an account?{' '}
           <Link
             href="/login"
