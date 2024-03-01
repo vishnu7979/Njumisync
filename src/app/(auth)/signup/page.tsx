@@ -70,7 +70,6 @@ const Signup = () => {
   });
 
   const isLoading = form.formState.isSubmitting;
-  
   const onSubmit = async ({ email, password }: z.infer<typeof FormSchema>) => {
     const { error } = await actionSignUpUser({ email, password });
     if (error) {
@@ -103,7 +102,7 @@ const Signup = () => {
         >
           <Image
             src={Logo}
-            alt="NjumiSync Logo"
+            alt="Creative Logo"
             width={50}
             height={50}
           />
@@ -111,7 +110,7 @@ const Signup = () => {
             className="font-semibold
           dark:text-white text-4xl first-letter:ml-2"
           >
-            NjumiSync.
+            Creative.
           </span>
         </Link>
         <FormDescription
@@ -184,7 +183,7 @@ const Signup = () => {
         )}
 
         {submitError && <FormMessage>{submitError}</FormMessage>}
-        <span className="self-center">
+        <span className="self-container">
           Already have an account?{' '}
           <Link
             href="/login"
